@@ -9,8 +9,9 @@ const app = express()
 
 // connect db
 mongoose.set('strictQuery', false);
-mongoose.connect(process.env.MONGO_URL, () => console.log('MongoDB has been started successfully'))
-
+// mongoose.connect(process.env.MONGO_URL, () => console.log('MongoDB has been started successfully'))
+mongoose.connect('mongodb://0.0.0.0:27017/blog',() => console.log('MongoDB has been started successfully'))
+  
 // routes
 app.use('/images', express.static('public/images'))
 

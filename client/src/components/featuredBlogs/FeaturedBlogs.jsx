@@ -24,13 +24,13 @@ const FeaturedBlogs = () => {
                     <AiFillLike /> 100 likes
                   </div>
                 </div>
-                <h4>Blog 1 title</h4>
+                <h4>IT's My Nature</h4>
                 <p className={classes.blogDesc}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corrupti harum quidem.
+                Mother Nature is the ultimate inspiration. When you're feeling sluggish, simply walking outside and getting fresh air can do wonders for your mood and outlook. 
                 </p>
                 <div className={classes.authorAndCreatedAt}>
-                  <span><span>Author:</span> Villy</span>
-                  <span><span>Created:</span> 27-02-2023</span>
+                  <span><span>Author:</span> Amrutha</span>
+                  <span><span>Created:</span>05-07-2023</span>
                 </div>
               </div>
             </div>
@@ -39,26 +39,26 @@ const FeaturedBlogs = () => {
             <div className={classes.secondaryBlog}>
               <img src={mountainImg2} alt="" />
               <div className={classes.secondaryBlogData}>
-                <h4>Blog 2 title</h4>
+                <h4>Nature Love</h4>
                 <p className={classes.desc}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, hic inventore? Atque?
+                Nature is not a place to visit, it is home
                 </p>
                 <div className={classes.authorAndCreatedAt}>
-                  <span><span>Author:</span> Villy</span>
-                  <span><span>Created:</span> 27-02-2023</span>
+                  <span><span>Author:</span> Amrutha</span>
+                  <span><span>Created:</span> 05-07-2023</span>
                 </div>
               </div>
             </div>
             <div className={classes.secondaryBlog}>
               <img src={mountainImg2} alt="" />
               <div className={classes.secondaryBlogData}>
-                <h4>Blog 3 title</h4>
+                <h4>Beauty Of Nature</h4>
                 <p className={classes.desc}>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, hic inventore? Atque?
+                Some old-fashioned things like fresh air and sunshine are hard to beat.
                 </p>
                 <div className={classes.authorAndCreatedAt}>
-                  <span><span>Author:</span> Villy</span>
-                  <span><span>Created:</span> 27-02-2023</span>
+                  <span><span>Author:</span> Amrutha</span>
+                  <span><span>Created:</span> 05-07-2023</span>
                 </div>
               </div>
             </div>
